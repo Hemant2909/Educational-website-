@@ -1,0 +1,268 @@
+@media screen and (max-height:1100px){
+  .title{height: 3rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+  .navlist{
+   
+    display: block;
+    width: 0%;
+    height: 2000vh;
+    position : fixed;
+    right: 0px;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition-property: width;
+    background-color: black;
+    transition-duration:.5s;
+    
+    z-index: 998;
+    padding-top: 2rem;
+    transition-timing-function: ease-in-out;
+  }
+  
+  
+  .navlist li{ padding: 1rem 3rem;
+    
+  }
+  .clickmenu{
+    display: block;
+  }
+  .navlist li a{ font-size: 1rem;
+    font-weight: bold;
+    
+  }
+  .navbar{width: 100%;
+  /* background: pink; */
+  height: 40rem;
+}
+.navcontent{height: 35rem;
+top: 5rem;
+width: 100%;
+z-index: 997;
+/* background-color: lightblue; */
+
+}
+.navtext{/* background-color: blue; */
+width: 85%;
+height: 15rem;
+top: 3rem;
+left: 1rem;
+font-size: 1rem;
+line-height: 1.8rem;
+}
+ .navtext:before{
+  content: "";
+  width:1.5rem;
+  height: 12rem;
+  background-color: darkred; 
+  border-radius: 1.5rem 0px 0px 1.5rem;
+  margin-right: 1rem;
+}
+.navtext p{
+  color: white;
+}
+.input input{ /* background-color: white */
+  height: 3rem;
+  width:83%;
+  
+  font-size: 1.1rem;
+  border: none;
+ 
+}
+.input{width: 85%;
+  /* background-color: green; */
+  top: 4.5rem;
+ left: 1.2rem;
+}
+.input button img{
+  width: 1.5rem;
+}
+.input button{margin: none;
+
+  display: relative ;
+   width: 3.4rem;
+   height: 3.1rem;
+}
+  .loginsignup{ /* background: red; */
+  top: 25rem;
+    width: 15rem;
+    height: 3rem;
+  }
+  .loginsignup button{
+    height: 2.5rem;
+    width: 9rem;
+    font-size: 1rem;
+  }
+  .containers .h1{
+    height: 3rem;
+  }
+  .containers{
+   height: 25rem;
+   
+  }
+  .containers h1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    
+  }
+  .containers .p2{background-color: #ffa73b;
+ white-space: nowrap;
+width: 15rem;
+height: 2.5em;
+ padding-top: 1rem;
+ font-size: 1rem;
+ font-weight: bold;
+}
+.container-btn1{ width: 50%;
+height: 3rem;
+margin-top: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 1.5rem;
+  background: #ffa73b;
+  color: black;
+  border: 3px solid white;
+  border-radius: 1rem;
+  font-size: .6rem;
+  font-weight: bold;
+  
+}
+  .container2{
+    height:50rem;
+    
+  }
+  
+.container-btn1 img{
+  width: 1rem;
+margin-left: 1rem;
+}
+.container2-img1{
+  height: 22rem;
+}
+.container2-img1 img{
+  width: 100%;
+  height: 22rem;
+  
+}
+.data-statics{
+  height: 27rem;
+}
+.data-statics h1{
+  font-size: 1rem;
+  letter-spacing: 3px;
+  line-height: 2rem;
+  font-weight: 100px;
+  padding: 2rem;
+}
+.container3{
+  height: 44.5rem;
+}
+.container3 img{ 
+  width: 100%;
+  height: 22rem;
+}
+.container3-img1{
+  height: 22rem;
+}
+.container3-imghead{
+  width: 10rem;
+  padding-left: 1rem;
+  height: 3rem;
+}
+.container3-imghead p{
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px
+}
+.container3-p{
+height: 21rem;
+padding-top: .7em;
+margin: 0.6em 0.4em;
+  
+}
+.container3-p h1{
+  font-size: 1em;
+}
+.container3-p p{
+  font-size: .7em;
+  padding-left: .5em
+}
+.container4{
+ height:  25.5rem;
+}
+.container4 .b{
+  height: 7rem;
+}
+
+.container4 p{margin-top: .6rem;
+  font-size: .5em;
+  
+}
+.container4 h3{
+  font-size: .3em;
+}
+.grid12,.grid34{
+  height: 12rem;
+}
+.grid1,.grid2,.grid3,.grid4{
+  height: 12rem;
+}
+.container5{
+  height: 13.5rem;
+}
+.container5-poster{
+  width: 95%;
+  height: 13rem;
+  margin-right:5px;
+}
+.container5-poster h2{
+  margin-top: 5px;
+  font-size: .5em;
+}
+.container5-poster img{
+  height: 23vh;
+}
+
+.container5-poster h3{
+  border-width: 2px;
+  margin-top: 1.5rem;
+  font-size: .4em;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+}
